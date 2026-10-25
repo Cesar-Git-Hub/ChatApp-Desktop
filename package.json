@@ -1,0 +1,25 @@
+{
+  "name": "chatapp-desktop",
+  "version": "1.0.0",
+  "description": "ChatApp desktop client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Cesar De la Rosa",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^45.0.0",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "lat.chatapp.desktop",
+    "productName": "ChatApp",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
